@@ -1,3 +1,7 @@
 import re
 import pandas as pd
 data = f.read()
+print (data)
+
+
+
