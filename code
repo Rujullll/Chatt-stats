@@ -2,6 +2,11 @@ import re
 import pandas as pd
 data = f.read()
 print (data)
+pattern='\d{1,2}\/\d{1,2}\/\d{2},\s\d{1,2}:\d{2}\s(?:AM|PM)'     
+messages = re.split(pattern,data)[:1]
+
+
+
 
 
 
